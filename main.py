@@ -59,7 +59,7 @@ def hello():
 
         storage_client = storage.Client()
 
-        bucket_name = "new-age-192017.appspot.com"
+        bucket_name = "routes_transport"
         bucket = storage_client.bucket(bucket_name)
         blob = bucket.blob("generated_trees_zip/{}.json.zip".format(fromID))
 
